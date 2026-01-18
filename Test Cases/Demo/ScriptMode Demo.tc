@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScriptMode Demo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2be89dcd-0f03-4587-ba05-3343c29dccef</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c46ce885-85f3-4b45-ae0d-f61bab5166f3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'student'</defaultValue>
+      <description></description>
+      <id>c46ce885-85f3-4b45-ae0d-f61bab5166f3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

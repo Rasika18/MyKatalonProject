@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>code_boolean</name>
+   <tag></tag>
+   <elementGuidId>f5941010-10c2-4857-ab3e-b4ae21e1a28d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-first.even-row-color.method-summary-table.method-summary-table-tab2.method-summary-table-tab4 > code</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='method-summary-table.tabpanel']/div/div[4]/code</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Instance Methods&quot;i >> internal:text=&quot;boolean&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>code</value>
+      <webElementGuid>a3e52357-9339-4d76-a6cc-1c2d253bcef1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>boolean</value>
+      <webElementGuid>c4685587-7698-4af2-9cba-a88bdbc17de4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;method-summary-table.tabpanel&quot;)/div[@class=&quot;summary-table three-column-summary&quot;]/div[@class=&quot;col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4&quot;]/code[1]</value>
+      <webElementGuid>e1a18871-d3e2-413d-ba04-3e19702ac962</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='method-summary-table.tabpanel']/div/div[4]/code</value>
+      <webElementGuid>b8ad3962-e4cd-454a-871a-38d2698e5794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/following::code[1]</value>
+      <webElementGuid>02fc249b-cb9b-4591-9881-355835ce64c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Method'])[5]/following::code[1]</value>
+      <webElementGuid>289f2118-f4b9-4cf6-bb3e-9f2abd6ff478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[1]/preceding::code[1]</value>
+      <webElementGuid>cf20f4fc-b93f-4acb-9368-68cc524fcdb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='boolean']/parent::*</value>
+      <webElementGuid>73776562-614f-463b-9f6f-bff3d5c2bad4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/code</value>
+      <webElementGuid>8946656c-c128-492b-97ba-a94f55c2f630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//code[(text() = 'boolean' or . = 'boolean')]</value>
+      <webElementGuid>0cd35c99-629f-4320-b9e1-1d3b2d05cf3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
