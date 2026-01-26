@@ -19,19 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.navigateToUrl('https://the-internet.herokuapp.com/javascript_alerts')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.click(findTestObject('Object Repository/Page_The Internet/button_Click for JS Confirm'))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
+WebUI.dismissAlert()
 
-WebUI.click(findTestObject('Page_OrangeHRM/User_Profile'))
+WebUI.delay(4)
 
-WebUI.verifyTextPresent('Welcome 123', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_OrangeHRM/a_Logout'))
+WebUI.verifyTextPresent('You clicked: Cancel', false)
 
 WebUI.closeBrowser()
 

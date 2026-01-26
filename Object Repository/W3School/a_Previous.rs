@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_org.openqa.selenium</name>
+   <name>a_Previous</name>
    <tag></tag>
-   <elementGuidId>9e7c6711-90ba-484c-a4c4-0fa4abfe942b</elementGuidId>
+   <elementGuidId>6eedfb23-badb-4bd8-b925-63b1135e150e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
+         <value>//div[@id='main']/div[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.col-first.even-row-color.all-packages-table.all-packages-table-tab1 > a</value>
+         <value>a.w3-left.w3-btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;org.openqa.selenium&quot;s]</value>
+         <value>internal:role=link[name=&quot;❮ Previous&quot;i] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,110 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9852b9e5-2699-4f94-923b-c06d7c93b680</webElementGuid>
+      <webElementGuid>83b23a8b-2485-4197-839a-22cfbbe932f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w3-left w3-btn</value>
+      <webElementGuid>9004ee5e-8436-4640-a3c7-a4a554e5c6f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>org/openqa/selenium/package-summary.html</value>
-      <webElementGuid>a351bf39-d837-4d47-a6b7-69fc26e4bc11</webElementGuid>
+      <value>sql_delete.asp</value>
+      <webElementGuid>5be04f1d-5320-4e6f-baa1-730f8db4ed95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>org.openqa.selenium</value>
-      <webElementGuid>d6b77880-3c0a-415d-ad7e-b8969982d8be</webElementGuid>
+      <value>❮ Previous</value>
+      <webElementGuid>061b758c-2fc1-404b-8dbe-277619ccd8c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all-packages-table&quot;)/div[@class=&quot;summary-table two-column-summary&quot;]/div[@class=&quot;col-first even-row-color all-packages-table all-packages-table-tab1&quot;]/a[1]</value>
-      <webElementGuid>93722507-8941-40c6-b2f6-a9542ecd8ddf</webElementGuid>
+      <value>id(&quot;main&quot;)/div[@class=&quot;w3-clear nextprev&quot;]/a[@class=&quot;w3-left w3-btn&quot;]</value>
+      <webElementGuid>c0cde280-903a-44b3-8aea-1085e7cdfcc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
-      <webElementGuid>8b5a282a-ad72-414e-b4de-6118059e74fa</webElementGuid>
+      <value>//div[@id='main']/div[2]/a</value>
+      <webElementGuid>24efc7cd-6712-4f13-b08a-702fc28d10c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'org.openqa.selenium')]</value>
-      <webElementGuid>ec095c21-c911-459d-bca6-13b73c5355dd</webElementGuid>
+      <value>//a[contains(text(),'❮ Previous')]</value>
+      <webElementGuid>3d886977-0c64-4db6-ac47-fe0b270f7d2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
-      <webElementGuid>bc269eb7-d966-41e0-b1f2-3294b702b574</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TOP, LIMIT, FETCH FIRST or ROWNUM'])[1]/following::a[1]</value>
+      <webElementGuid>64398502-61c4-4de4-8c7d-ad4783f38c05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Package'])[2]/following::a[1]</value>
-      <webElementGuid>051fcde1-f9c4-4854-8d75-2dcc1f18c3a9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next ❯'])[1]/preceding::a[1]</value>
+      <webElementGuid>f523f9cd-8630-42d3-9427-0ebf6c9d9954</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi'])[1]/preceding::a[1]</value>
-      <webElementGuid>e402e3f0-c915-4866-805c-6ca46cdffc88</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The SQL SELECT TOP Clause'])[1]/preceding::a[2]</value>
+      <webElementGuid>6f74f3ee-db36-494b-a024-b9b416ea6b17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi.browser'])[1]/preceding::a[2]</value>
-      <webElementGuid>60cdcbd5-3837-49c1-8a66-21dbeda4b6be</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='org.openqa.selenium']/parent::*</value>
-      <webElementGuid>82342ad3-8259-404b-975e-abc3dcbe3bec</webElementGuid>
+      <value>//*/text()[normalize-space(.)='❮ Previous']/parent::*</value>
+      <webElementGuid>6d70087b-f866-4717-9816-36b98a951295</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'org/openqa/selenium/package-summary.html')]</value>
-      <webElementGuid>6bfc0489-59d9-4829-9003-3177d665ac74</webElementGuid>
+      <value>(//a[contains(@href, 'sql_delete.asp')])[2]</value>
+      <webElementGuid>4b7bc796-d737-4829-b340-ac177e5c31b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
-      <webElementGuid>341fe8ab-192a-4820-b6c0-b81e30f8e7c7</webElementGuid>
+      <value>//div[2]/div/div/div[2]/a</value>
+      <webElementGuid>e7ad29d3-f9e9-42df-8c72-a67f97809516</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'org/openqa/selenium/package-summary.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium')]</value>
-      <webElementGuid>1aa14c84-f63b-42db-a708-0d92c76d3fa9</webElementGuid>
+      <value>//a[@href = 'sql_delete.asp' and (text() = '❮ Previous' or . = '❮ Previous')]</value>
+      <webElementGuid>29309a05-279c-48b2-bc62-7089a1e52c0d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

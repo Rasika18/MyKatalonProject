@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_org.openqa.selenium</name>
+   <name>a_SQL Where</name>
    <tag></tag>
-   <elementGuidId>9e7c6711-90ba-484c-a4c4-0fa4abfe942b</elementGuidId>
+   <elementGuidId>edea2093-0e2c-4ea4-813e-b729c43bb869</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
+         <value>//div[@id='leftmenuinnerinner']/a[6]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.col-first.even-row-color.all-packages-table.all-packages-table-tab1 > a</value>
+         <value>#leftmenuinnerinner > a:nth-of-type(6)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;org.openqa.selenium&quot;s]</value>
+         <value>internal:role=link[name=&quot; SQL Where&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,110 +29,118 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9852b9e5-2699-4f94-923b-c06d7c93b680</webElementGuid>
+      <webElementGuid>bb8a7b05-d5b0-4f2c-8a0e-1dcea5a3de85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_top</value>
+      <webElementGuid>f6e03af7-e1eb-4382-9120-06ddf4c09d6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>org/openqa/selenium/package-summary.html</value>
-      <webElementGuid>a351bf39-d837-4d47-a6b7-69fc26e4bc11</webElementGuid>
+      <value>sql_where.asp</value>
+      <webElementGuid>1c8b1a91-c5c7-4d6c-9566-20c810ebfc7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>org.openqa.selenium</value>
-      <webElementGuid>d6b77880-3c0a-415d-ad7e-b8969982d8be</webElementGuid>
+      <value>SQL Where</value>
+      <webElementGuid>ae151f92-4737-45d4-be8f-2c767184201a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all-packages-table&quot;)/div[@class=&quot;summary-table two-column-summary&quot;]/div[@class=&quot;col-first even-row-color all-packages-table all-packages-table-tab1&quot;]/a[1]</value>
-      <webElementGuid>93722507-8941-40c6-b2f6-a9542ecd8ddf</webElementGuid>
+      <value>id(&quot;leftmenuinnerinner&quot;)/a[6]</value>
+      <webElementGuid>f108f60b-e264-4085-976e-acd64a13eee3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
-      <webElementGuid>8b5a282a-ad72-414e-b4de-6118059e74fa</webElementGuid>
+      <value>//div[@id='leftmenuinnerinner']/a[6]</value>
+      <webElementGuid>2b05daa1-168a-43d3-9c1c-f24e6cb7e5b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'org.openqa.selenium')]</value>
-      <webElementGuid>ec095c21-c911-459d-bca6-13b73c5355dd</webElementGuid>
+      <value>//a[contains(text(),'SQL Where')]</value>
+      <webElementGuid>d8aac059-98f5-49a8-aec3-1c20814ead6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
-      <webElementGuid>bc269eb7-d966-41e0-b1f2-3294b702b574</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SQL Select Distinct'])[1]/following::a[1]</value>
+      <webElementGuid>ce758f69-95e9-423a-8353-fda4a5808acf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Package'])[2]/following::a[1]</value>
-      <webElementGuid>051fcde1-f9c4-4854-8d75-2dcc1f18c3a9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SQL Select'])[1]/following::a[2]</value>
+      <webElementGuid>20b9b849-9d1b-4552-80d0-e7c321d1587b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi'])[1]/preceding::a[1]</value>
-      <webElementGuid>e402e3f0-c915-4866-805c-6ca46cdffc88</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SQL Order By'])[1]/preceding::a[1]</value>
+      <webElementGuid>28a16d48-8d46-4e80-92d4-09c018115afc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi.browser'])[1]/preceding::a[2]</value>
-      <webElementGuid>60cdcbd5-3837-49c1-8a66-21dbeda4b6be</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SQL And'])[1]/preceding::a[2]</value>
+      <webElementGuid>30a87421-0534-44e0-8df7-79d1ce44a130</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='org.openqa.selenium']/parent::*</value>
-      <webElementGuid>82342ad3-8259-404b-975e-abc3dcbe3bec</webElementGuid>
+      <value>//*/text()[normalize-space(.)='SQL Where']/parent::*</value>
+      <webElementGuid>fa25127a-a82e-453e-a4bc-eb54293cf53a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'org/openqa/selenium/package-summary.html')]</value>
-      <webElementGuid>6bfc0489-59d9-4829-9003-3177d665ac74</webElementGuid>
+      <value>//a[contains(@href, 'sql_where.asp')]</value>
+      <webElementGuid>6df41638-3756-40d0-a54e-83117f2f843c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/a</value>
-      <webElementGuid>341fe8ab-192a-4820-b6c0-b81e30f8e7c7</webElementGuid>
+      <value>//div/div/div/div/a[6]</value>
+      <webElementGuid>c4ada430-b749-4d98-8c52-6c5cc37a4d7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'org/openqa/selenium/package-summary.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium')]</value>
-      <webElementGuid>1aa14c84-f63b-42db-a708-0d92c76d3fa9</webElementGuid>
+      <value>//a[@href = 'sql_where.asp' and (text() = 'SQL Where' or . = 'SQL Where')]</value>
+      <webElementGuid>f4714f3b-688d-4def-966e-ee65519e603a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
