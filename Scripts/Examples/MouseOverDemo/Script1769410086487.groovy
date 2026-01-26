@@ -19,19 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+WebUI.navigateToUrl('https://katalon.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.click(findTestObject('Object Repository/Page_Katalon AI-augmented Test Automation Platform/button_Accept All Cookies'))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.mouseOver(findTestObject('Object Repository/Page_Katalon AI-augmented Test Automation Platform/div_Products'))
 
-WebUI.click(findTestObject('Page_OrangeHRM/button_Login'))
-
-WebUI.click(findTestObject('Page_OrangeHRM/User_Profile'))
-
-WebUI.verifyTextPresent('Welcome 123', false, FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_OrangeHRM/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_Katalon AI-augmented Test Automation Platform/div_TestOps'))
 
 WebUI.closeBrowser()
 
