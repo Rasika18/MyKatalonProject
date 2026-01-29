@@ -3,22 +3,22 @@
    <description></description>
    <name>a_org.openqa.selenium</name>
    <tag></tag>
-   <elementGuidId>9e7c6711-90ba-484c-a4c4-0fa4abfe942b</elementGuidId>
+   <elementGuidId>59a6e1ce-a1e5-41e3-a47e-df1f67b4678b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
+         <value>(//a[contains(text(),'org.openqa.selenium')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.col-first.even-row-color.all-packages-table.all-packages-table-tab1 > a</value>
+         <value>div.col-first.even-row-color > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=link[name=&quot;org.openqa.selenium&quot;s]</value>
+         <value>div >> internal:has-text=/^org\.openqa\.selenium$/ >> internal:role=link</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9852b9e5-2699-4f94-923b-c06d7c93b680</webElementGuid>
+      <webElementGuid>7b907ad7-a963-4739-b4fa-96c8cc480c40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>org/openqa/selenium/package-summary.html</value>
-      <webElementGuid>a351bf39-d837-4d47-a6b7-69fc26e4bc11</webElementGuid>
+      <value>#org.openqa.selenium</value>
+      <webElementGuid>aa4a577d-f4cb-4241-97b6-cf5f8e6a27d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,31 +45,23 @@
       <name>text</name>
       <type>Main</type>
       <value>org.openqa.selenium</value>
-      <webElementGuid>d6b77880-3c0a-415d-ad7e-b8969982d8be</webElementGuid>
+      <webElementGuid>7209f61c-b72b-4491-938b-9254a35f16b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;all-packages-table&quot;)/div[@class=&quot;summary-table two-column-summary&quot;]/div[@class=&quot;col-first even-row-color all-packages-table all-packages-table-tab1&quot;]/a[1]</value>
-      <webElementGuid>93722507-8941-40c6-b2f6-a9542ecd8ddf</webElementGuid>
+      <value>/html[1]/body[@class=&quot;package-use-page&quot;]/div[@class=&quot;flex-box&quot;]/div[@class=&quot;flex-content&quot;]/main[1]/div[@class=&quot;summary-table two-column-summary&quot;]/div[@class=&quot;col-first even-row-color&quot;]/a[1]</value>
+      <webElementGuid>9d3f0d5b-84c7-42f2-8b9a-d6c9b139a636</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='all-packages-table']/div[2]/div[3]/a</value>
-      <webElementGuid>8b5a282a-ad72-414e-b4de-6118059e74fa</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'org.openqa.selenium')]</value>
-      <webElementGuid>ec095c21-c911-459d-bca6-13b73c5355dd</webElementGuid>
+      <value>(//a[contains(text(),'org.openqa.selenium')])[2]</value>
+      <webElementGuid>2a3968e4-9a5d-412d-b48e-ebfc4aea6017</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::a[1]</value>
-      <webElementGuid>bc269eb7-d966-41e0-b1f2-3294b702b574</webElementGuid>
+      <webElementGuid>3ad12ca5-8ebe-4eba-8ae8-be63bd85d267</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Package'])[2]/following::a[1]</value>
-      <webElementGuid>051fcde1-f9c4-4854-8d75-2dcc1f18c3a9</webElementGuid>
+      <webElementGuid>84426df8-708b-449c-a8d1-01ab71992df3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,31 +85,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi'])[1]/preceding::a[1]</value>
-      <webElementGuid>e402e3f0-c915-4866-805c-6ca46cdffc88</webElementGuid>
+      <webElementGuid>9ba27a85-fbdf-41e5-8ba9-b5ff1285c551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi.browser'])[1]/preceding::a[2]</value>
-      <webElementGuid>60cdcbd5-3837-49c1-8a66-21dbeda4b6be</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='org.openqa.selenium']/parent::*</value>
-      <webElementGuid>82342ad3-8259-404b-975e-abc3dcbe3bec</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='org.openqa.selenium.bidi.browsingcontext'])[1]/preceding::a[2]</value>
+      <webElementGuid>0356076e-f1ec-4a33-9124-3b5a4ec4a3c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'org/openqa/selenium/package-summary.html')]</value>
-      <webElementGuid>6bfc0489-59d9-4829-9003-3177d665ac74</webElementGuid>
+      <value>//a[contains(@href, '#org.openqa.selenium')]</value>
+      <webElementGuid>a5cc9f37-0936-4fc1-8295-c986bc021c9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,14 +109,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/a</value>
-      <webElementGuid>341fe8ab-192a-4820-b6c0-b81e30f8e7c7</webElementGuid>
+      <webElementGuid>d373c008-abb9-430d-a985-962991c3b5a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'org/openqa/selenium/package-summary.html' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium')]</value>
-      <webElementGuid>1aa14c84-f63b-42db-a708-0d92c76d3fa9</webElementGuid>
+      <value>//a[@href = '#org.openqa.selenium' and (text() = 'org.openqa.selenium' or . = 'org.openqa.selenium')]</value>
+      <webElementGuid>f33654f0-24a7-41a1-8125-0ff768e920c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
